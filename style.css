@@ -1,0 +1,38 @@
+/* Layout ******************/
+body {
+    padding:0;
+    width:700px; margin:0 auto;
+  }
+  
+  #main {
+    float:left; width:55%;
+    margin-left:20%;
+  }
+  
+  * html #main {
+    margin-left:10%;
+  }
+  
+  #sections {
+    float:left; width:20%; margin-left:-75%;
+  }
+  
+  #news {
+    float:right; width:25%;
+  }
+  
+  #content {
+    overflow:hidden; width:100%;
+  }
+
+  #search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+  }
+
+  body {
+    /* ... */
+    position: relative;
+  }
